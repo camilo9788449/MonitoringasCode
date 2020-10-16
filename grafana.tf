@@ -1,6 +1,6 @@
 provider "grafana" {
   url  = "http://localhost:3000/"
-  auth = "eyJrIjoiRUJFTWFmYWpXcXc1OE1pQmplb1NLMkFpWEJZVEU1MlYiLCJuIjoiVGVycmFmb3JtIiwiaWQiOjF9"
+  auth = "---"
 }
 
 resource "grafana_dashboard" "metrics" {
